@@ -347,6 +347,19 @@
 			}
 		}
 	},
+	"poma123/PickupSpawners:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV"
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.13.x, 1.14.x"
+			}
+		}
+	},
 	"TheBusyBiscuit/CommandOverride:master": {
 		"sonar": {
 			"enabled": true,
