@@ -6,12 +6,12 @@ This kinda serves as a "Continous Deployment" Service for Maven Projects,
 but it utilises GitHub Pages.
 
 # Status
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=security_rating)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=bugs)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=code_smells)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=TheBusyBiscuit_builds&metric=coverage)](https://sonarcloud.io/dashboard?id=TheBusyBiscuit_builds)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=poma123_builds)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=security_rating)](https://sonarcloud.io/dashboard?id=poma123_builds)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=bugs)](https://sonarcloud.io/dashboard?id=poma123_builds)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=poma123_builds)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=code_smells)](https://sonarcloud.io/dashboard?id=poma123_builds)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=coverage)](https://sonarcloud.io/dashboard?id=poma123_builds)
 
 
 ## How it works
