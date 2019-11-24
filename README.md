@@ -1,6 +1,6 @@
 # Maven Builds Server
 This is the repository of the backend for my builds-page.
-The page can be found here: https://thebusybiscuit.github.io/builds/
+The page can be found here: https://poma123.github.io/builds/
 
 This kinda serves as a "Continous Deployment" Service for Maven Projects,
 but it utilises GitHub Pages.
