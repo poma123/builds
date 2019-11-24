@@ -7,7 +7,7 @@ $(function() {
     createBadge(owner, repository, branch, "markdown");
     createBadge(owner, repository, branch, "html");
 
-    $.getJSON("https://thebusybiscuit.github.io/builds/resources/repos.json", function(repos) {
+    $.getJSON("https://poma123.github.io/builds/resources/repos.json", function(repos) {
         var info = repos[owner + "/" + repository + ":" + branch];
 
 	    let i = 1;
@@ -116,11 +116,11 @@ $(function() {
                     }
                 }
 
-                $("#custom-info-" + j++).html('<td class="icon"><img class="icon" src="https://thebusybiscuit.github.io/content/octicons/package.svg"></td><td class="info_table_middle">' + label + '</td><td>' + content + '</td>');
+                $("#custom-info-" + j++).html('<td class="icon"><img class="icon" src="https://poma123.github.io/content/octicons/package.svg"></td><td class="info_table_middle">' + label + '</td><td>' + content + '</td>');
             }
         }
 
-        $.getJSON("https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/builds.json", function(builds) {
+        $.getJSON("https://poma123.github.io/builds/" + owner + "/" + repository + "/" + branch + "/builds.json", function(builds) {
             var last_successful = builds.last_successful;
 
             // Get currently selected Build
@@ -210,10 +210,10 @@ function createBadge(owner, repository, branch, language) {
     var url = "";
 
     if (language === "markdown") {
-        url = "[![Build Status](https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/badge.svg)](https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + ")"
+        url = "[![Build Status](https://poma123.github.io/builds/" + owner + "/" + repository + "/" + branch + "/badge.svg)](https://poma123.github.io/builds/" + owner + "/" + repository + "/" + branch + ")"
     }
     else if (language === "html") {
-        url = "<a href=\"https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "\"><img src=\"https://thebusybiscuit.github.io/builds/" + owner + "/" + repository + "/" + branch + "/badge.svg\" alt=\"Build Status\"/></a>";
+        url = "<a href=\"https://poma123.github.io/builds/" + owner + "/" + repository + "/" + branch + "\"><img src=\"https://poma123.github.io/builds/" + owner + "/" + repository + "/" + branch + "/badge.svg\" alt=\"Build Status\"/></a>";
     }
 
     $("#badge_" + language).attr("value", url);
