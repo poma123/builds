@@ -166,7 +166,7 @@ tr:nth-child(odd) {
     text-align: center;
 }
 .header {
-    background-color: rgb(8, 8, 8);
+    background-color: darkcyan;
     display: table;
     height: 6%;
     margin-bottom: 10px;
