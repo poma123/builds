@@ -258,6 +258,14 @@ a.build_child {
     color: rgb(253, 253, 253);
     display: table-cell;
     height: 100%;
+    padding-left: 2%;
+    vertical-align: middle;
+}
+
+.link_main2 {
+    color: rgb(253, 253, 253);
+    display: table-cell;
+    height: 100%;
     text-align: right;
     padding-right: 2%;
     vertical-align: middle;
