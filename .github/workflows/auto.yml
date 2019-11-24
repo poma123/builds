@@ -1,7 +1,7 @@
 name: TheBusyBot
 
 on:
-  push:
+  #push:
   #  branches: gh-pages
   schedule:
   - cron: '*/15 * * * *'
