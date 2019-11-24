@@ -13,6 +13,7 @@ but it utilises GitHub Pages.
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=code_smells)](https://sonarcloud.io/dashboard?id=poma123_builds)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=coverage)](https://sonarcloud.io/dashboard?id=poma123_builds)
 
+
 ## How it works
 The code itself is basically just a basic node.js Program.<br>
 It reads repositories from 'resources/repos.json' and connects to the GitHub-API.<br>
