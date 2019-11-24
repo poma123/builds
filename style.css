@@ -279,6 +279,10 @@ a.build_child {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
+.link_main2:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
 .link_info {
     color: rgb(80, 80, 220);
     padding-left: 4px;
