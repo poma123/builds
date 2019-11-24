@@ -28,4 +28,4 @@ jobs:
         LOGIN_EMAIL: ${{ secrets.LOGIN_EMAIL }}
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
     - name: Executing program
-      run: node src/main.js
+      run: node src/single-run.js
