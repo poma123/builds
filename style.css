@@ -8,6 +8,15 @@ html, body {
 a {
     text-decoration: none;
 }
+p.headher {
+    color: white;
+    display: table-cell;
+    height: 100%;
+    padding-left: 2%;
+    vertical-align: middle;
+    margin-block-end: 0;
+    width: 10px;
+}
 svg {
     height: 30px;
     min-height: 30px;
