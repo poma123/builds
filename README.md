@@ -5,14 +5,6 @@ The page can be found here: https://poma123.github.io/builds/
 This kinda serves as a "Continous Deployment" Service for Maven Projects,
 but it utilises GitHub Pages.
 
-# Status
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=poma123_builds)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=security_rating)](https://sonarcloud.io/dashboard?id=poma123_builds)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=bugs)](https://sonarcloud.io/dashboard?id=poma123_builds)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=poma123_builds)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=code_smells)](https://sonarcloud.io/dashboard?id=poma123_builds)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=poma123_builds&metric=coverage)](https://sonarcloud.io/dashboard?id=poma123_builds)
-
 ## How it works
 The code itself is basically just a basic node.js Program.<br>
 It reads repositories from 'resources/repos.json' and connects to the GitHub-API.<br>
