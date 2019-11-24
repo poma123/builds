@@ -8,7 +8,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript">
             $(function() {
-                $.getJSON("https://thebusybiscuit.github.io/builds/resources/repos.json", function(repos) {
+                $.getJSON("https://poma123.github.io/builds/resources/repos.json", function(repos) {
                     $("#repos").html("");
                     var profiles = [];
 
@@ -51,7 +51,7 @@
 
                 html += "<tr project=\"" + repo + ":" + branch + "\"><td class=\"icon\"><img class=\"icon\" alt=\"project page\" src=\"https://thebusybiscuit.github.io/content/octicons/beaker.svg\"></td>";
                 html += '<td class="table_label" style="width: auto;"><a class="link_info" href="' + owner + '/' + repo + '/' + branch + '">' + (repo + " (" + branch + ")") + "</a></td><td>";
-                html += '<img style="float: right;" alt=\"project badge\" src="https://thebusybiscuit.github.io/builds/' + owner + '/' + repo + '/' + branch + '/badge.svg"/></td></tr>';
+                html += '<img style="float: right;" alt=\"project badge\" src="https://poma123.github.io/builds/' + owner + '/' + repo + '/' + branch + '/badge.svg"/></td></tr>';
 
                 table.append(html);
             }
@@ -59,7 +59,7 @@
     </head>
     <body>
         <div class="header">
-            <a class="link_main" href="https://thebusybiscuit.github.io/builds/">TheBusyBiscuit's Repo Server</a>
+            <a class="link_main" href="https://poma123.github.io/builds/">TheBusyBiscuit's Repo Server</a>
         </div>
         <div id="repos" class="page">
             <div class="box repo">
