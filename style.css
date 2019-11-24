@@ -107,8 +107,10 @@ svg {
     margin-top: auto;
 }
 .current_commit_avatar {
-    height: 40px;
-    width: 40px;
+    height: auto;
+    width: 4%;
+    border-radius: 4px;
+    margin-right: 5px;
 }
 .current_commit_bottom {
     font-size: 120%;
