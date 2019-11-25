@@ -84,7 +84,7 @@ function getLatestCommit(job, cfg, logging) {
         request(url).then((json) => {
             log(logging, "-> commits: 200 - OK");
             resolve(json[0]);
-        }, reject);
+        }, reject)
 	.catch((err) => {
             log(logging, err.stack);
         });
