@@ -32,7 +32,7 @@
                     if (repo.split("/")[0] !== user) continue;
 
                     console.log("Found Project \"" + repo + "\"");
-                    addRepository(table, user, repo.split('/')[1].split(":")[0], repo.split('/')[1].split(":")[1]);
+                    addRepository(table, user, repo.split('/')[1].split(":")[0], repo.split('/')[1].split(":")[1], repos);
                 }
 
                 // Alphabetical sorting
@@ -46,10 +46,10 @@
                 $(table).append(items);
             }
 
-            function addRepository(table, owner, repo, branch) {
+            function addRepository(table, owner, repo, branch, repos) {
                 let html = "";
 		    
-		var info = repos[owner + "/" + repository + ":" + branch];
+		var info = repos[owner + "/" + repo + ":" + branch];
 		    
 		var description = "";
 		if (info.options.description != null) {
