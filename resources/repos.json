@@ -18,7 +18,7 @@
 			"enabled": false
 		},
 		"options": {
-			"prefix": "DEV",
+			"prefix": "TOC",
       "description": "A custom branch for a network called TheOld-Crafters."
 		},
 		"dependencies": {
