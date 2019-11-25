@@ -28,6 +28,6 @@ jobs:
         LOGIN_EMAIL: ${{ secrets.LOGIN_EMAIL }}
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
     - name: Executing program
-      run: node src/single-run.js
+      run: node --trace-warnings src/single-run.js
       env:
         JSON_CONFIG: ${{ secrets.JSON_CONFIG }}
