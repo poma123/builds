@@ -39,8 +39,9 @@ module.exports = (file) => {
     try {
         // Sadly this has to be a sync-process, otherwise a Promise would be more appropriate here
         cfg = JSON.parse(fs.readFileSync(file, 'UTF-8'));
+    } catch (err) {
+        console.log(new Error('JSON parsing has failed.'));
     }
-    catch(err) {}
 
     cfg = lodash.defaultsDeep(cfg, defaultConfig);
 
