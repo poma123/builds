@@ -110,7 +110,7 @@ function compile(job, cfg, logging) {
 
         var logger = (data) => {
             log(logging, data, true);
-            fs.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8").catch(err => console.log(err));
+            fs.appendFile(path.resolve(__dirname, "../" + job.author + "/" + job.repo + "/" + job.branch + "/" + job.repo + "-" + job.id + ".log"), data, "UTF-8").catch(err => {console.log(err); console.log(":/");});
         };
 
         compiler.childProcess.stdout.on('data', logger);
