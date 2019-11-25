@@ -4,7 +4,8 @@
 			"enabled": false
 		},
 		"options": {
-			"prefix": "DEV"
+			"prefix": "DEV",
+      "description": "An extreme lightweight pickup spawners plugin."
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -17,7 +18,8 @@
 			"enabled": false
 		},
 		"options": {
-			"prefix": "DEV"
+			"prefix": "DEV",
+      "description": "A custom branch for a network called TheOld-Crafters."
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -30,7 +32,8 @@
 			"enabled": false
 		},
 		"options": {
-			"prefix": "DEV"
+			"prefix": "DEV",
+      "description": "Edit TokenManager shops ingame!"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
