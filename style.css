@@ -283,6 +283,12 @@ a.build_child {
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
+.link_info2 {
+    color: rgb(161, 161, 161);
+    padding-right: 0;
+    float: right;
+    text-align: right;
+}
 .link_info {
     color: rgb(80, 80, 220);
     padding-left: 4px;
