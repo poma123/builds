@@ -163,7 +163,6 @@ function compile(job, logging) {
             resolve();
         })
         .catch((err) => {
-            log(logging, "... :/");
             log(logging, err.stack);
             job.success = false;
             resolve();
