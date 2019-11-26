@@ -27,6 +27,20 @@
 			}
 		}
 	},
+  "poma123/AutoMessage:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV",
+      "description": "A very lightweight automessage plugin."
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.8.x, 1.14.x"
+			}
+		}
+	},
 	"poma123/TokenShopEditor:master": {
 		"sonar": {
 			"enabled": false
