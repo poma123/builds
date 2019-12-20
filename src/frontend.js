@@ -160,6 +160,12 @@ $(function() {
             $(".trigger").click(function() {
                 loadBuild(builds, parseInt($(this).attr("href").substr(1)));
             });
+
+            let targetUrl = $("#current_download_jar").attr("href");
+            $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
+              data:{url: targetUrl},
+            }).then(count => document.getElementById("current_downloads").innerHTML = count);
+
         });
     });
 

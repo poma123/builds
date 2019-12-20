@@ -11,12 +11,12 @@
   <script type="text/javascript">
 
     window.onload=function(){
-      $(document).ready(function() {
-        let targetUrl = $("#current_download_jar").attr("href");
-        $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
-          data:{url: targetUrl},
-        }).then(count => document.getElementById("current_downloads").innerHTML = count);
-      });
+      // $(document).ready(function() {
+      //   let targetUrl = $("#current_download_jar").attr("href");
+      //   $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
+      //     data:{url: targetUrl},
+      //   }).then(count => document.getElementById("current_downloads").innerHTML = count);
+      // });
       $("#current_download_jar").click(function () {
         let targetUrl = $("#current_download_jar").attr("href");
         $.ajax('https://hitcounter.pythonanywhere.com/count',{
