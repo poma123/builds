@@ -8,6 +8,24 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://poma123.github.io/builds/src/frontend.js"></script>
+        <script type="text/javascript">
+
+          window.onload=function(){
+            $(document).ready(function() {
+              let targetUrl = $("#current_download_jar").attr("href");
+              $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
+                data:{url: targetUrl},
+              }).then(count => document.getElementById("current_downloads").innerHTML = count);
+            });
+            $("#current_download_jar").click(function () {
+              let targetUrl = $("#current_download_jar").attr("href");
+              $.ajax('https://hitcounter.pythonanywhere.com/count',{
+                data:{url: targetUrl},
+              }).then(count => document.getElementById("current_downloads").innerHTML = count);
+
+            });
+          });
+          </script>
     </head>
     <body owner="poma123" repository="TokenShopEditor" branch="master">
         <div class="header">
@@ -142,6 +160,15 @@
                                         <img style="width: 20px;" class="loading" alt="loading" src="https://poma123.github.io/builds/resources/content/octicons/sync.svg"/>
                                     </a>
                                 </td>
+                            </tr>
+                            <tr>
+                              <td class="icon">
+                                <img class="icon" alt="downloads" src="https://poma123.github.io/builds/resources/content/octicons/project.svg">
+                              </td>
+                              <td class="info_table_middle">Downloads</td>
+                              <td>
+                                <a id="current_downloads" style="padding-left: 4px;" target="_blank"></a>
+                              </td>
                             </tr>
                             <tr>
                                 <td class="icon">
