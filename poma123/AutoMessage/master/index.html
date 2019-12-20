@@ -13,6 +13,7 @@
           window.onload=function(){
             $(document).ready(function() {
               let targetUrl = $("#current_download_jar").attr("href");
+              console.log(targetUrl);
               $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
                 data:{url: targetUrl},
               }).then(count => document.getElementById("current_downloads").innerHTML = count);
