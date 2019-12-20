@@ -118,6 +118,10 @@ $(function() {
 
                 $("#custom-info-" + j++).html('<td class="icon"><img class="icon" src="https://poma123.github.io/builds/resources/content/octicons/package.svg"></td><td class="info_table_middle">' + label + '</td><td>' + content + '</td>');
             }
+            let targetUrl = $("#current_download_jar").attr("href");
+            $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
+              data:{url: targetUrl},
+            }).then(count => document.getElementById("current_downloads").innerHTML = count);
         }
 
         $.getJSON("https://poma123.github.io/builds/" + owner + "/" + repository + "/" + branch + "/builds.json", function(builds) {
@@ -160,11 +164,6 @@ $(function() {
             $(".trigger").click(function() {
                 loadBuild(builds, parseInt($(this).attr("href").substr(1)));
             });
-
-            let targetUrl = $("#current_download_jar").attr("href");
-            $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
-              data:{url: targetUrl},
-            }).then(count => document.getElementById("current_downloads").innerHTML = count);
 
         });
     });
