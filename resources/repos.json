@@ -24,7 +24,7 @@
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
-				"1": "1.14.4"
+				"1": "1.15.x"
 			}
 		}
 	},
