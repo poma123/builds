@@ -17,7 +17,7 @@
           data:{url: targetUrl},
           error: function (xhr, ajaxOptions, thrownError) {
             document.getElementById("current_downloads").innerHTML = "n/a";
-            $("current_downloads").css("title", "Disable your AdBlock to see this value.");
+            document.getElementById("current_downloads").title = "Disable your AdBlock to see this value.";
           }
         }).then(count => document.getElementById("current_downloads").innerHTML = count);
       });
