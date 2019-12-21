@@ -126,11 +126,14 @@ $(function() {
 
         $("#custom-info-" + j++).html('<td class="icon"><img class="icon" src="https://poma123.github.io/builds/resources/content/octicons/package.svg"></td><td class="info_table_middle">' + label + '</td><td>' + content + '</td>');
       }
-      
+
       try {
         let targetUrl = $("#current_download_jar").attr("href");
         $.ajax('https://hitcounter.pythonanywhere.com/nocount',{
           data:{url: targetUrl},
+          error: function (xhr, ajaxOptions, thrownError) {
+            document.getElementById("current_downloads").innerHTML = "N/A";
+          }
         }).then(count => document.getElementById("current_downloads").innerHTML = count);
       } catch(error) {
         document.getElementById("current_downloads").innerHTML = "N/A";
