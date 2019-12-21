@@ -12,14 +12,13 @@
 
     window.onload=function(){
       $("#current_download_jar").click(function () {
-        try {
         let targetUrl = $("#current_download_jar").attr("href");
         $.ajax('https://hitcounter.pythonanywhere.com/count',{
           data:{url: targetUrl},
+          error: function (xhr, ajaxOptions, thrownError) {
+            document.getElementById("current_downloads").innerHTML = "n/a";
+          }
         }).then(count => document.getElementById("current_downloads").innerHTML = count);
-      } catch(error) {
-        document.getElementById("current_downloads").innerHTML = "N/A";
-      }
       });
     };
     </script>
