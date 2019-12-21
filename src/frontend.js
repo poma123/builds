@@ -46,6 +46,14 @@ $(function() {
             else {
                 $("#download_section").css("display", "none");
             }
+		
+		
+	    if (builds[id].status === "SUCCESS") {
+                $("#downloads").css("display", "");
+            }
+            else {
+                $("#downloads").css("display", "none");
+            }
 
             if (builds[id].candidate === "RELEASE") {
                 download_jar.text(repository + " " + builds[id].tag + ".jar");
