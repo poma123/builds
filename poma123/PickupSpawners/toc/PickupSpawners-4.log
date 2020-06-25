@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.poma123:pickupspawners:jar:TOC - 4 (git 1ed184eb)
+[WARNING] 'dependencies.dependency.systemPath' for net.milkbowl.vault:VaultAPI:jar should not point at files within the project directory, ${project.basedir}/lib/Vault.jar will be unresolvable by dependent projects @ line 1, column 1268
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------< me.poma123:pickupspawners >----------------------
+[INFO] Building PickupSpawners TOC - 4 (git 1ed184eb)
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ pickupspawners ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ pickupspawners ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ pickupspawners ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 16 source files to /home/runner/work/builds/builds/poma123/PickupSpawners/toc/files/target/classes
+[INFO] /home/runner/work/builds/builds/poma123/PickupSpawners/toc/files/src/main/java/me/poma123/spawners/gui/PickupGui.java: Some input files use or override a deprecated API.
+[INFO] /home/runner/work/builds/builds/poma123/PickupSpawners/toc/files/src/main/java/me/poma123/spawners/gui/PickupGui.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/runner/work/builds/builds/poma123/PickupSpawners/toc/files/src/main/java/me/poma123/spawners/Metrics.java: /home/runner/work/builds/builds/poma123/PickupSpawners/toc/files/src/main/java/me/poma123/spawners/Metrics.java uses unchecked or unsafe operations.
+[INFO] /home/runner/work/builds/builds/poma123/PickupSpawners/toc/files/src/main/java/me/poma123/spawners/Metrics.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/runner/work/builds/builds/poma123/PickupSpawners/toc/files/src/main/java/me/poma123/spawners/gui/PickupGui.java:[258,60] cannot find symbol
+  symbol:   variable ZOMBIE_PIGMAN_SPAWN_EGG
+  location: class org.bukkit.Material
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.232 s
+[INFO] Finished at: 2020-06-25T10:31:58Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project pickupspawners: Compilation failure
+[ERROR] /home/runner/work/builds/builds/poma123/PickupSpawners/toc/files/src/main/java/me/poma123/spawners/gui/PickupGui.java:[258,60] cannot find symbol
+[ERROR]   symbol:   variable ZOMBIE_PIGMAN_SPAWN_EGG
+[ERROR]   location: class org.bukkit.Material
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
