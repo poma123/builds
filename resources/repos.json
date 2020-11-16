@@ -1,11 +1,11 @@
 {
-  "poma123/PickupSpawners:master": {
+        "poma123/PickupSpawners:master": {
 		"sonar": {
 			"enabled": false
 		},
 		"options": {
 			"prefix": "DEV",
-      "description": "An extreme lightweight pickup spawners plugin."
+                        "description": "An extreme lightweight pickup spawners plugin."
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -15,13 +15,13 @@
 			}
 		}
 	},
-  "poma123/PickupSpawners:toc": {
+        "poma123/PickupSpawners:toc": {
 		"sonar": {
 			"enabled": false
 		},
 		"options": {
 			"prefix": "TOC",
-      "description": "A custom branch for a network called TheOld - Crafters."
+                        "description": "A custom branch for a network called TheOld - Crafters."
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -30,13 +30,13 @@
 			}
 		}
 	},
-  "poma123/AutoMessage:master": {
+        "poma123/AutoMessage:master": {
 		"sonar": {
 			"enabled": false
 		},
 		"options": {
 			"prefix": "DEV",
-      "description": "A very lightweight automessage plugin."
+                        "description": "A very lightweight automessage plugin."
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -50,7 +50,7 @@
 		},
 		"options": {
 			"prefix": "DEV",
-      "description": "Edit TokenManager shops ingame!"
+                        "description": "Edit TokenManager shops ingame!"
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -65,7 +65,7 @@
 		},
 		"options": {
 			"prefix": "DEV",
-      "description": "An unofficial Slimefun addon that adds missing Advanced and Empowered Androids."
+                        "description": "An unofficial Slimefun addon that adds missing Advanced and Empowered Androids."
 		},
 		"dependencies": {
 			"Minecraft Version(s)": {
@@ -77,6 +77,20 @@
 			"Slimefun Version": {
 				"1": "<a class=\"link_info\" href=\"https://thebusybiscuit.github.io/builds/TheBusyBiscuit/Slimefun4/master/#630\">dev #630</a>",
 				"2": "<a class=\"link_info\" href=\"https://thebusybiscuit.github.io/builds/TheBusyBiscuit/Slimefun4/master/#639\">dev #639</a>"
+			}
+		}
+	},
+	"TheOld-Crafters/CratesPlus:master": {
+		"sonar": {
+			"enabled": false
+		},
+		"options": {
+			"prefix": "DEV",
+                        "description": "A custom CratesPlus fork that holds creative mode protection."
+		},
+		"dependencies": {
+			"Minecraft Version(s)": {
+				"1": "1.16.x"
 			}
 		}
 	}
