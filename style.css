@@ -352,3 +352,11 @@ a.build_child {
 .info_table_middle {
 	width: 30%;
 }
+
+.abandoned a:hover {
+    color: #9a99d1;
+}
+.abandoned a {
+    color: #d5d4f8;
+    font-style: italic;
+} 
