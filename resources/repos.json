@@ -1,5 +1,6 @@
 {
         "poma123/PickupSpawners:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": false
 		},
@@ -16,6 +17,7 @@
 		}
 	},
         "poma123/PickupSpawners:toc": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": false
 		},
@@ -31,6 +33,7 @@
 		}
 	},
         "poma123/AutoMessage:master": {
+		"abandoned": true,
 		"sonar": {
 			"enabled": false
 		},
@@ -45,6 +48,7 @@
 		}
 	},
 	"poma123/TokenShopEditor:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -60,6 +64,7 @@
 		}
 	},
 	"TheOld-Crafters/PomaExpansion:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
@@ -81,6 +86,7 @@
 		}
 	},
 	"TheOld-Crafters/CratesPlus:master": {
+		"abandoned": false,
 		"sonar": {
 			"enabled": false
 		},
