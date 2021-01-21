@@ -48,7 +48,7 @@
 		}
 	},
 	"poma123/TokenShopEditor:master": {
-		"abandoned": false,
+		"abandoned": true,
 		"sonar": {
 			"enabled": false
 		},
