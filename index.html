@@ -53,14 +53,7 @@
                 }
 
                 // Alphabetical sorting
-                var items = table.children("tr");
-                items.sort((a, b) => {
-                    var repo1 = $(a).attr("project").toUpperCase();
-                    var repo2 = $(b).attr("project").toUpperCase();
-                    return (repo1 > repo2) ? 1 : -1;
-                });
-
-                $(table).append(items);
+                $(table).append(table.children("tr").sort((a, b) => sortProjects($(a), $(b))));
             }
 
             function addRepository(table, directory, owner, repo, branch, projectType, repos) {
@@ -94,6 +87,16 @@
                      </tr>
                 `);
                 
+            }
+                
+	    function sortProjects(a, b) {
+                if (a.hasClass("abandoned") && !b.hasClass("abandoned")) {
+                    return 1;
+                } else if (!a.hasClass("abandoned") && b.hasClass("abandoned")) {
+                    return -1;
+                } else {
+                    return a.attr("project").toUpperCase() > b.attr("project").toUpperCase() ? 1 : -1;
+                }
             }
         </script>
     </head>
