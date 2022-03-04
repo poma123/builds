@@ -64,7 +64,7 @@
 		}
 	},
 	"TheOld-Crafters/PomaExpansion:master": {
-		"abandoned": false,
+		"abandoned": true,
 		"sonar": {
 			"enabled": false
 		},
@@ -86,7 +86,7 @@
 		}
 	},
 	"TheOld-Crafters/CratesPlus:master": {
-		"abandoned": false,
+		"abandoned": true,
 		"sonar": {
 			"enabled": false
 		},
